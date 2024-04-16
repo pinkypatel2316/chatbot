@@ -1,0 +1,221 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me a joke!",
+                "Tell me something funny!",
+                "Do you know a joke?"
+            ],
+            "responses": [
+                "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+                "What did the buffalo say when his son left for college? Bison."
+            ]
+        },
+        {
+            "tag": "educational1",
+            "patterns": [
+                "Suitable for beginner or advanced users?"
+            ],
+            "responses": [
+                "Yes, this course is suitable for both beginner and advanced users."
+            ]
+        },
+        {
+            "tag": "educational2",
+            "patterns": [
+                "Can I learn at my own pace?"
+            ],
+            "responses": [
+                "Absolutely! You can learn at your own pace."
+            ]
+        },
+        {
+            "tag": "educational3",
+            "patterns": [
+                "What type of assignment do you give?"
+            ],
+            "responses": [
+                "We offer a variety of assignments to ensure comprehensive learning."
+            ]
+        },
+        {
+            "tag": "educational4",
+            "patterns": [
+                "What are the prerequisites for this course?"
+            ],
+            "responses": [
+                "The prerequisites for this course include basic programming knowledge and familiarity with [specific tools or technologies]."
+            ]
+        },
+        {
+            "tag": "educational5",
+            "patterns": [
+                "How long does this course take to complete?"
+            ],
+            "responses": [
+                "The duration of this course depends on your pace of learning, but typically it takes around [X] weeks/months to complete."
+            ]
+        },
+        {
+            "tag": "educational6",
+            "patterns": [
+                "How much does the course cost?"
+            ],
+            "responses": [
+                "The cost of the course is [price]."
+            ]
+        },
+        {
+            "tag": "educational7",
+            "patterns": [
+                "How is the doubt support?"
+            ],
+            "responses": [
+                "We provide excellent doubt support through our dedicated forum and live sessions."
+            ]
+        },
+        {
+            "tag": "educational8",
+            "patterns": [
+                "Does this course offer placement opportunities also?"
+            ],
+            "responses": [
+                "Yes, we offer placement opportunities through our industry connections and career services."
+            ]
+        },
+        {
+            "tag": "educational9",
+            "patterns": [
+                "How is the course different from other platform courses?"
+            ],
+            "responses": [
+                "Our course stands out from others due to its hands-on approach, industry-relevant curriculum, and expert mentorship."
+            ]
+        },
+        {
+            "tag": "educational10",
+            "patterns": [
+                "Is there any money-back guarantee if I did not like the course?"
+            ],
+            "responses": [
+                "Yes, we offer a money-back guarantee within [X] days if you're not satisfied with the course."
+            ]
+        },
+        {
+            "tag": "educational11",
+            "patterns": [
+                "Is this course relevant in today's market?"
+            ],
+            "responses": [
+                "Absolutely! Our course is designed to equip you with skills that are in high demand in today's job market."
+            ]
+        },
+        {
+            "tag": "educational12",
+            "patterns": [
+                "Is good DSA a prerequisite for this course?"
+            ],
+            "responses": [
+                "While a good understanding of data structures and algorithms is beneficial, it's not a strict prerequisite for this course."
+            ]
+        },
+        {
+            "tag": "educational13",
+            "patterns": [
+                "How much can I make after completing this course?"
+            ],
+            "responses": [
+                "The earning potential after completing this course varies depending on factors like experience and location, but our graduates typically earn [X] per year."
+            ]
+        },
+        {
+            "tag": "educational14",
+            "patterns": [
+                "Can I pay in EMI for this course?"
+            ],
+            "responses": [
+                "Yes, we offer flexible payment options, including EMI."
+            ]
+        },
+        {
+            "tag": "educational15",
+            "patterns": [
+                "Does this course offer financial aid for underprivileged people?"
+            ],
+            "responses": [
+                "We have scholarship programs available for eligible candidates."
+            ]
+        },
+        {
+            "tag": "educational16",
+            "patterns": [
+                "Does this course offer any certificate?"
+            ],
+            "responses": [
+                "Upon successful completion of the course, you'll receive a certificate recognized by industry leaders."
+            ]
+        },
+        {
+            "tag": "educational17",
+            "patterns": [
+                "Where can I get testimonials for this course?"
+            ],
+            "responses": [
+                "You can find testimonials from our satisfied students on our website and social media channels."
+            ]
+        },
+        {
+            "tag": "educational18",
+            "patterns": [
+                "Who is the mentor for this course?"
+            ],
+            "responses": [
+                "Our course is taught by experienced industry professionals who are experts in their respective fields. You'll have access to their guidance and mentorship throughout the course."
+            ]
+        }
+    ]
+}

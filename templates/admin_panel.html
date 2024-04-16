@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel</title>
+</head>
+<body>
+    <h1>Unresolved Queries</h1>
+    <ul>
+        {% for query in unresolved_queries %}
+            <li>{{ query }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

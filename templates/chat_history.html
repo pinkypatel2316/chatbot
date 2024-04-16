@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat History</title>
+</head>
+<body>
+    <h1>Chat History</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Timestamp</th>
+                <th>User Input</th>
+                <th>Chatbot Response</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for chat in chat_data %}
+            <tr>
+                <td>{{ chat.timestamp }}</td>
+                <td>{{ chat.user_input }}</td>
+                <td>{{ chat.chatbot_response }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

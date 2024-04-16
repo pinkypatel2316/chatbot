@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Interface</title>
+</head>
+
+<body>
+    <h1>Admin Interface</h1>
+
+    <h2>Unresolved Queries</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Query ID</th>
+                <th>Query</th>
+                <th>Tag</th>
+                <th>Response</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for query in questions %}
+
+            <tr>
+                <td>{{ query[0] }}</td>
+                <td>{{ query[1] }}</td>
+                <form action="/admin/add_response" method="POST">
+                <td>
+                    <input type="text" name="tag" placeholder="Tag">
+                </td>
+                <td>
+                    <input type="text" name="response" placeholder="Response">
+                </td>
+
+                <td>
+                        <input type="hidden" name="id" value="{{ query[0] }}">
+                        <input type="hidden" name="question" value="{{ query[1] }}">
+                        <input type="submit" value="Submit">
+                </td>
+            </form>
+
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+
+</html>
