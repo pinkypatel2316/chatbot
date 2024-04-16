@@ -2,7 +2,7 @@
 
 
 
-
+Please go to master branch
 
 
 Please go to the assets folder to see the screenshots of the app 
